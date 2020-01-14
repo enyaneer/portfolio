@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, '../public')))
 app.use('/api', require('../api'))
 
 app.use('*', function(req, res) {
-  res.sendFile(path.join(__dirname, '../public/index.html'))
+  res.sendFile(path.join(__dirname, '../public'))
 })
 
 //set up port to listen on
