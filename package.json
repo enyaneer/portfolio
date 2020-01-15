@@ -8,8 +8,8 @@
     "test": "test",
     "build-client": "webpack",
     "build-client-watch": "webpack -w",
-    "predeploy": "npm run start-server",
-    "deploy": "gh-pages -d build-client",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node server",
     "start-dev": "NODE_ENV='development' npm run build-client-watch & NODE_ENV='development' npm run start-server",
     "start-server": "nodemon server -e html,js,scss --ignore public --ignore client"
