@@ -14,13 +14,13 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 //serve up static files
-app.use(express.static(path.join(__dirname, '../public')))
+app.use(express.static(path.join(__dirname, '../')))
 
 //api routes
 app.use('/api', require('../api'))
 
 app.use('*', function(req, res) {
-  res.sendFile(path.join(__dirname, '../public'))
+  res.sendFile(path.join(__dirname, '../index.html'))
 })
 
 //set up port to listen on
