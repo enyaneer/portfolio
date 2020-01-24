@@ -24,7 +24,7 @@ app.use('*', function(req, res) {
 })
 
 //set up port to listen on
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 8080
 
 app.listen(PORT, function() {
   console.log(`Hello, I'll be your server for the evening.
