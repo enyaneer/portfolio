@@ -2,4 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import '../style.css'
 
-ReactDOM.render(<div>It's your app!</div>, document.getElementById('app'))
+ReactDOM.render(
+  <div>If this shows up jump for joy</div>,
+  document.getElementById('app')
+)
