@@ -1,0 +1,15 @@
+#app {
+  display: flex;
+}
+
+#navbar {
+  display: flex;
+  background: whitesmoke;
+  flex-direction: column;
+  border: thick double black;
+}
+
+#landingBox {
+  display: flex;
+  justify-content: center;
+}
