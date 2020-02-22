@@ -9,6 +9,7 @@
   background: whitesmoke;
   flex-direction: column;
   border-right: thick double black;
+  position: fixed;
 }
 
 #landingBox {
