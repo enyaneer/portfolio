@@ -16,3 +16,12 @@
   display: flex;
   justify-content: center;
 }
+
+#social {
+  display: flex;
+  flex-direction: column;
+}
+
+ion-icon {
+  color: black;
+}
