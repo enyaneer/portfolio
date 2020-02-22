@@ -10,7 +10,7 @@ const Navbar = () => {
           <li>projects</li>
         </ul>
       </div>
-      <div>
+      <div id='social'>
         social media
         <ul>
           <li>twitter</li>
