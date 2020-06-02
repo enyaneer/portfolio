@@ -4,6 +4,9 @@
   "description": "personal portfolio",
   "main": "index.js",
   "homepage": ".",
+  "engines": {
+    "node": "12.8.x"
+  },
   "scripts": {
     "test": "test",
     "build-client": "webpack",
